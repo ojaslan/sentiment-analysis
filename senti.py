@@ -14,7 +14,7 @@ def get_primary_sentiment(sentiment):
     else:
         return "Neutral"
 
-st.title("Sentiment Analysis")
+st.title("SentimentSense")
 
 text_input = st.text_area("Enter text for sentiment analysis:")
 
